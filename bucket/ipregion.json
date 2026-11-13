@@ -1,16 +1,16 @@
 {
-    "version": "1.3.7",
-    "homepage": "https://ipregion.top",
-    "description": "IP geolocation and region availability checks from your terminal (Windows launcher; requires a bash environment: Git Bash, MSYS2, Cygwin or WSL)",
-    "license": "MIT",
-    "notes": "The launcher needs a bash environment: Git for Windows (https://git-scm.com/download/win) or WSL (wsl --install). It downloads the script to %LOCALAPPDATA%\\ipregion on first run.",
-    "url": "https://github.com/vladon/ipregion/releases/download/v1.3.7/ipregion.ps1",
-    "hash": "80367239ae0424fc0199bf3f3f623d33b75e6d1eb8a2129d0a3e4f218cd44ab7",
-    "bin": "ipregion.ps1",
-    "checkver": {
-        "github": "https://github.com/vladon/ipregion"
-    },
-    "autoupdate": {
-        "url": "https://github.com/vladon/ipregion/releases/download/v$version/ipregion.ps1"
-    }
+  "version": "1.3.7",
+  "homepage": "https://ipregion.top",
+  "description": "IP geolocation and region availability checks from your terminal (Windows launcher; requires a bash environment: Git Bash, MSYS2, Cygwin or WSL)",
+  "license": "MIT",
+  "notes": "The launcher needs a bash environment: Git for Windows (https://git-scm.com/download/win) or WSL (wsl --install). It downloads the script to %LOCALAPPDATA%\\ipregion on first run.",
+  "url": "https://github.com/vladon/ipregion/releases/download/v1.3.7/ipregion.ps1",
+  "hash": "80367239ae0424fc0199bf3f3f623d33b75e6d1eb8a2129d0a3e4f218cd44ab7",
+  "bin": "ipregion.ps1",
+  "checkver": {
+    "github": "https://github.com/vladon/ipregion"
+  },
+  "autoupdate": {
+    "url": "https://github.com/vladon/ipregion/releases/download/v$version/ipregion.ps1"
+  }
 }
